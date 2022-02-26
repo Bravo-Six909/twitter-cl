@@ -29,7 +29,7 @@ const Feedbody = () => {
   }, [snapshot])
 
   useEffect(() => {
-    fetch(`https://api.unsplash.com/photos/?client_id=${NEXT_PUBLIC_API_KEY}`)
+    fetch(`https://api.unsplash.com/photos/?client_id=${process.env.NEXT_PUBLIC_API_KEY}`)
       .then((datas) => datas.json())
       .then((res) => setData(res))
   }, []);
