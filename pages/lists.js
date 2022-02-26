@@ -28,4 +28,4 @@ const Lists = () => {
   )
 }
 
-export default Lists;s
+export default Lists;
