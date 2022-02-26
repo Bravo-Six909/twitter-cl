@@ -4,16 +4,15 @@ import { BsTwitter } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
 import styles from "./Login.module.css";
 import { auth, provider } from "../../firebase";
-import { signInWithPopup } from 'firebase/auth';
+import { signInWithRedirect } from 'firebase/auth';
 
 const Login = () => {
 
     const [user, setUser] = useState(null);
 
     const signInWithGoogle = () => {
-        signInWithPopup(auth, provider)
+        signInWithRedirect(auth, provider)
             .then((result) => {
-                console.log(result);
                 setUser(result);
             })
             .catch((err) => {

@@ -61,7 +61,7 @@ const Feedbody = () => {
         <div className={style.input}>
           <img src={loggedUser?.photoURL} />
           <div className={style.inputField}>
-            <input onChange={(e) => { console.log(desc); setDesc(e.target.value) }} placeholder="What's happening?" />
+            <input onChange={(e) => { setDesc(e.target.value) }} placeholder="What's happening?" />
             <div className={style.inputIcon}>
               <div className={style.icons}>
                 <MdOutlineInsertPhoto className={style.displayIcon} />
