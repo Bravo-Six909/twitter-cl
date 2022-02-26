@@ -1,0 +1,59 @@
+.menu{
+    margin: 4px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 40px;
+}
+.item:hover{
+    background-color: rgb(221, 221, 221);
+    transition-duration: 350ms;
+}
+.item p{
+    margin-left: 14px;
+}
+.twitterLogo{
+    color: #1a8cd8;
+    font-size: 28px;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name{
+    font-weight: bold;
+}
+.profile > img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.tweet{
+    border: none;
+    width: 100%;
+    background-color: #1a8cd8;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.profileItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}

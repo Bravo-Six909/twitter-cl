@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.4px solid rgb(201, 199, 199);
+}
+
+.nav > li{
+    list-style-type: none;
+    padding: 20px 0;
+    border-bottom: 4px solid #1a8cd8;
+    font-weight: bold;
+    color: rgb(146, 146, 146);
+}

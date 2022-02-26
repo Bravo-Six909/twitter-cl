@@ -1,0 +1,70 @@
+.input{
+    display: flex;
+}
+.input > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.inputField{
+    width: 100%;
+}
+.inputField > input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 24px;
+    outline: none;
+}
+.displayIcon{
+    color: #1a8cd8;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-right: 2rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.inputIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.tweet{
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #1a8cd8;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > img{
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.header > p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

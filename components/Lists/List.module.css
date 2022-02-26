@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+.headpara{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.headname{
+    font-weight: bold;
+}
+.icons{
+    font-size: 20px;
+    margin: 0px 4px;
+}
+.pinnedBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}

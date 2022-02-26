@@ -1,0 +1,63 @@
+.body{
+    display: flex;
+    border: 0.2px solid rgb(245, 242, 242);
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.profile{
+    margin-right: 10px;
+}
+.profile > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail{
+    width: 100%;
+}
+
+.detail > img{
+    border-radius: 20px;
+    width: 100%;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.desc{
+    margin: 5px 0;
+}
+.comment,.like,.share,.retweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.commentIcon,.retweetIcon,.likeIcon,.shareIcon{
+    font-size: 15px;
+}
+.commentIcon:hover,.shareIcon:hover{
+    color: #4daff1;
+}
+.retweetIcon:hover{
+    color: #19df83;
+}
+.likeIcon:hover{
+    color: #e0247c;
+}
+.comment:hover,.share:hover{
+    background-color: #bfd3df ;
+}
+.like:hover{
+    background-color: #e7c5d5;
+}
+.retweet:hover{
+    background-color: #b1e2cb;
+}

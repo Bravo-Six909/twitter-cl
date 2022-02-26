@@ -1,0 +1,28 @@
+.body{
+    display: flex;
+}
+
+.pic > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+}
+.detail > button{
+    padding: 8px 24px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+}
+
+.name{
+    margin-right: 50px;
+}
